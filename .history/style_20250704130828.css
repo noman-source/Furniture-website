@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Flow+Circular&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Ramabhadra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
 body {
     font-family: "DM Sans", sans-serif;
     background-color: black;
@@ -207,12 +210,9 @@ main .section1 .section1-right img {
     height: 50px;
     transform: translateY(30px);
     gap: 10px;
-    border-radius: 99px;
-    /* Corrected to 99px based on later image */
-    padding: 16px;
-    /* Corrected to 16px based on later image */
-    background-color: #E3E3E373;
-    /* Corrected to #E3E3E3 based on later image */
+    border-radius: 99px; /* Corrected to 99px based on later image */
+    padding: 16px; /* Corrected to 16px based on later image */
+    background-color: #E3E3E373; /* Corrected to #E3E3E3 based on later image */
 }
 
 .section3-content .box p {
@@ -241,8 +241,7 @@ main .section1 .section1-right img {
     line-height: 56px;
     letter-spacing: -0.96px;
     padding-top: 50px;
-    padding-left: 100px;
-    /* Added based on later image */
+    padding-left: 100px; /* Added based on later image */
 }
 
 .section4 .section4-content {
@@ -261,7 +260,7 @@ main .section1 .section1-right img {
     gap: 20px;
 }
 
-.section4 .section4-content .box>img {
+.section4 .section4-content .box img {
     height: 239px;
     width: 285px;
     border-radius: 12px;
@@ -273,13 +272,10 @@ main .section1 .section1-right img {
     font-size: 22px;
     line-height: 32px;
     display: flex;
-    gap: 16px;
-    /* Corrected to 16px based on later image */
+    gap: 16px; /* Corrected to 16px based on later image */
     justify-content: flex-start;
-    align-items: center;
-    /* Added based on later image */
-    color: #39382A;
-    /* Added based on later image */
+    align-items: center; /* Added based on later image */
+    color: #39382A; /* Added based on later image */
 }
 
 .section5 {
@@ -294,7 +290,7 @@ main .section1 .section1-right img {
     gap: 40px;
 }
 
-.section5>.section5-top,
+.section5 > .section5-top,
 .section5-middle,
 .section5-end {
     height: 436px;
@@ -305,7 +301,7 @@ main .section1 .section1-right img {
 }
 
 .section5 .section5-top {
-    background-color: #F0F8Fa;
+    background-color: #F;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -326,9 +322,9 @@ main .section1 .section1-right img {
 }
 
 .section5 .right img {
-    width: 605px;
+    width: 60px;
     height: 388px;
-    border-radius: 8px;
+    border-radius: 60px;
 }
 
 .section5 .left {
@@ -337,31 +333,23 @@ main .section1 .section1-right img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 30px;
 }
 
 .section5 .left .text {
     display: flex;
     flex-direction: column;
     gap: 16px;
-    font-family: DM Sans;
-    font-weight: 500;
-    font-style: Medium;
-    font-size: 22px;
-    line-height: 32px;
-    letter-spacing: 0%;
-    vertical-align: middle;
-    width: 400px;
-
 }
 
 .section5 .left .button {
     display: flex;
     justify-content: flex-start;
-    width: 400px;
 }
 
-
+.section5 .left .text button {
+    width: 400px;
+}
 
 .section5 .right {
     padding: 20px;
@@ -370,8 +358,8 @@ main .section1 .section1-right img {
 .section5 h3 {
     font-weight: 700;
     font-size: 40px;
-    line-height: 56px;
-    letter-spacing: -0.96px;
+    line-height: 50px;
+    letter-spacing: 0.96px;
 }
 
 .section5 p {
@@ -379,12 +367,9 @@ main .section1 .section1-right img {
     font-weight: 500;
     font-size: 22px;
     line-height: 32px;
-    letter-spacing: 0%;
-    /* Added based on later image */
-    vertical-align: middle;
-    /* Added based on later image */
-    color: #39382A;
-    /* Added based on later image */
+    letter-spacing: 0%; /* Added based on later image */
+    vertical-align: middle; /* Added based on later image */
+    color: #39382A; /* Added based on later image */
 }
 
 .section5 .left button {
@@ -398,8 +383,8 @@ main .section1 .section1-right img {
     padding-left: 32px;
     border-radius: 32px;
     background-color: transparent;
-    border: 2px solid #ED653B;
-    color: #ED653B;
+    border: 2px solid #FD653E;
+    color: #FD653E;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -424,9 +409,9 @@ main .section1 .section1-right img {
 .section6 .section6-content {
     height: 548px;
     background-color: #FFFCF8;
-    width: 90.2%;
+    width: 90.7%;
     margin: auto;
-    padding-left: 100px;
+    padding-left: 180px;
     padding-top: 80px;
     display: flex;
     flex-direction: column;
@@ -444,14 +429,19 @@ main .section1 .section1-right img {
     gap: 19px;
 }
 
+.section6 h2 {
+    font-family: Circular Std;
+    font-weight: 700;
+}
+
 .section6 h3 {
     /* font-family: Circular Std; */
     font-weight: 700;
     font-size: 40px;
-    line-height: 56px;
+    line-height: 50px;
     letter-spacing: 0px;
     vertical-align: middle;
-    color: #39302A;
+    color: #39382A;
 }
 
 .section6-content .box-bottom {
@@ -467,24 +457,24 @@ main .section1 .section1-right img {
     line-height: 26px;
     letter-spacing: 0%;
     vertical-align: middle;
-    color: #39302A;
+    color: #39382A;
 }
 
 .section6-content .box-bottom p {
     font-family: DM Sans;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: -1%;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 0%;
     vertical-align: middle;
     color: #ED653B;
 }
 
 footer {
-    border-top: 1px solid #DCD8D5;
+    border-top: 1px solid #DC0805;
     width: 97%;
     background-color: white;
-    height: 236px;
+    height: 230px;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -494,7 +484,7 @@ footer {
 
 footer .boxes {
     display: grid;
-    grid-template-columns: 401px 186px 186px 170px;
+    grid-template-columns: 403px 180px 180px 170px;
     width: 85%;
     margin: auto;
     /* background-color: #39382A; */
@@ -505,9 +495,14 @@ footer .boxes {
 footer .boxes .box1 {
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 20px;
 }
 
+footer .boxes .box1-top {
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 34px;
+}
 
 footer .boxes .box1 .box1-top {
     font-weight: 400;
@@ -538,7 +533,7 @@ footer .boxes .box1 .box1-bottom input::placeholder {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: -1%;
+    letter-spacing: 1%;
     vertical-align: middle;
     color: #BABABA;
 }
@@ -554,7 +549,7 @@ footer .boxes .box1 .box1-bottom button {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: -1%;
+    letter-spacing: 1%;
     vertical-align: middle;
     color: #ED653B;
 }
@@ -562,7 +557,7 @@ footer .boxes .box1 .box1-bottom button {
 footer .boxes ul li:first-child {
     font-weight: 500;
     font-size: 16px;
-    letter-spacing: -0.16px;
+    letter-spacing: 0.16px;
     color: #2A2A2D;
 }
 
@@ -575,12 +570,9 @@ footer .boxes ul {
 footer .boxes ul li {
     list-style-type: none;
     font-family: DM Sans;
-    font-weight: 400;
-    /* Added based on latest image */
-    font-size: 14px;
-    /* Added based on latest image */
-    color: #39302A;
-    /* Added based on latest image */
+    font-weight: 400; /* Added based on latest image */
+    font-size: 16px; /* Added based on latest image */
+    color: #39382A; /* Added based on latest image */
 }
 
 footer .boxes .box4 li:last-of-type {

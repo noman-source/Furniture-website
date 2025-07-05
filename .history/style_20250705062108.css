@@ -351,17 +351,17 @@ main .section1 .section1-right img {
     line-height: 32px;
     letter-spacing: 0%;
     vertical-align: middle;
-    width: 400px;
 
 }
 
 .section5 .left .button {
     display: flex;
     justify-content: flex-start;
-    width: 400px;
 }
 
-
+.section5 .left .text button {
+    width: 400px;
+}
 
 .section5 .right {
     padding: 20px;

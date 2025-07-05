@@ -351,7 +351,6 @@ main .section1 .section1-right img {
     line-height: 32px;
     letter-spacing: 0%;
     vertical-align: middle;
-    width: 400px;
 
 }
 
@@ -361,7 +360,8 @@ main .section1 .section1-right img {
     width: 400px;
 }
 
-
+.section5 .left .text button {
+}
 
 .section5 .right {
     padding: 20px;

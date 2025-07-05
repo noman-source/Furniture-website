@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Flow+Circular&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Ramabhadra&display=swap');
 body {
     font-family: "DM Sans", sans-serif;
     background-color: black;
@@ -351,17 +350,17 @@ main .section1 .section1-right img {
     line-height: 32px;
     letter-spacing: 0%;
     vertical-align: middle;
-    width: 400px;
 
 }
 
 .section5 .left .button {
     display: flex;
     justify-content: flex-start;
-    width: 400px;
 }
 
-
+.section5 .left .text button {
+    width: 400px;
+}
 
 .section5 .right {
     padding: 20px;
